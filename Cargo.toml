@@ -1,0 +1,8 @@
+[package]
+name = "ptmseek"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+candle-coreml = "0.3.1"
+candle-nn = { version = "0.9.1", features = ["accelerate"] }
