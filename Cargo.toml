@@ -5,4 +5,10 @@ edition = "2024"
 
 [dependencies]
 candle-coreml = "0.3.1"
-candle-nn = { version = "0.9.1", features = ["accelerate"] }
+candle-nn = { version = "0.9.1"}
+clap = { version = "4.5.53", features = ["derive"] }
+ndarray = "0.17.1"
+ndarray-linalg = "0.18.0"
+rayon = "1.11.0"
+smartcore = "0.4.8"
+burn = { version = "0.19.1", features = ["train", "vision", "network", "cpu", "cuda", "ndarray", "wgpu", "dataset", "sqlite", "std", "autodiff", "fusion", "store", "doc", "metrics"] }
