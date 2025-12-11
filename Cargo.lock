@@ -5104,6 +5104,8 @@ dependencies = [
  "ndarray-linalg",
  "rayon",
  "smartcore",
+ "tch",
+ "torch",
 ]
 
 [[package]]
@@ -6695,6 +6697,12 @@ name = "toml_writer"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "df8b2b54733674ad286d16267dcfc7a71ed5c776e4ac7aa3c3e2561f7c637bf2"
+
+[[package]]
+name = "torch"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "143766e7de78fbc7c38dba0f2324599a3edf5e91fc0a0de650f947a0da49bc1d"
 
 [[package]]
 name = "torch-sys"
