@@ -14,3 +14,4 @@ smartcore = "0.4.8"
 burn = { version = "0.19.1", features = ["train", "vision", "network", "cpu", "cuda", "ndarray", "wgpu", "dataset", "sqlite", "std", "autodiff", "fusion", "store", "doc", "metrics"] }
 torch = "0.1.0"
 tch = { version = "0.22.0", features = ["download-libtorch"] }
+candle-transformers = "0.9.1"

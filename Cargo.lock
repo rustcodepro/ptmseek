@@ -5099,6 +5099,7 @@ dependencies = [
  "burn",
  "candle-coreml",
  "candle-nn",
+ "candle-transformers",
  "clap",
  "ndarray 0.17.1",
  "ndarray-linalg",
